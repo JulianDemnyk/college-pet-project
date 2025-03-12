@@ -30,7 +30,3 @@ Pet project of Kostiv, Demnyk, Mironyak, Kotsiubynskyi.
 ⚡ HTML
 
 🎨 CSS
-
-📝 JavaScript (за потреби)
-
-🚀 Як запустити проект
