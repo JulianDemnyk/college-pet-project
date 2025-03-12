@@ -1,2 +1,2 @@
 # college-pet-project
-Pet project of Kostiv, Demnyk, Mironyak
+Pet project of Kostiv, Demnyk, Mironyak, Kotsiubynskyi.
