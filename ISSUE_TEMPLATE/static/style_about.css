@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 html, body {
@@ -28,7 +29,9 @@ a {
 
 /* --------------------Header-------------------- */
 header {
-    background: rgb(73, 139, 12);
+    background: #04032A;
+    height: 80px;
+    display: flex;
 }
 .navbar {
     width: 100%;
@@ -42,7 +45,12 @@ header {
     display: flex;
     flex: 1;
     justify-content: center;
-    gap: 20px;
+    gap: 28px;
+}
+.links a {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
 }
 .navbar .logo{
     margin-right: auto;
@@ -67,9 +75,20 @@ header {
 
 .block {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 15px;
-    max-width: 400px;
+    max-width: 600px;
+    text-align: justify;
+}
+.block p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+.block img {
+    width: 180px;
+    height: 220px;
+    border-radius: 5%;
 }
 
 .block:nth-child(odd) {
@@ -86,7 +105,16 @@ header {
 
 /* --------------------Footer-------------------- */
 .footer {
-    background-color: rgb(73, 139, 12);
+    background-color: #04032A;
+    height: 120px;
     justify-content: space-between;
+    display: flex;
     align-items: center;
+    padding-left: 80px;
+}
+.footer_info {
+    font-weight: 100;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
 }
